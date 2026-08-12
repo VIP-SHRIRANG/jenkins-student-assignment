@@ -14,7 +14,7 @@ echo 'Running unit tests...'
 stage('Package') {
 steps {
 // Write code here to generate build-info.txt
-sh 'echo "Build executed on $(date)" > build-info.txt'
+bat 'echo "Build executed on $(date)" > build-info.txt'
 }
 }
 }
